@@ -91,7 +91,6 @@ nombre: document.getElementById('nombre').value,
 correo: document.getElementById('correo').value,
 fecha_nacimiento: document.getElementById('fechaNacimiento').value,
 telefono: document.getElementById('telefono').value,
-roll: document.getElementById('roll').value,
 };
 
 const { error } = await supabase

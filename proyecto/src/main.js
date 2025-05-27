@@ -1,6 +1,7 @@
 import { supabase } from "./supabase.js";
 import { mostrarLogin } from "./login.js";
 import { mostrarRegistro} from "./registro.js";
+import { mostrarDatos } from "./usuario.js";
 
 let pokemones = [];
 let totalPokes = 1026;
@@ -304,6 +305,8 @@ window.actualizarIconoFavorito = actualizarIconoFavorito;
 window.mostrarFavoritos = mostrarFavoritos;
 window.mostrarAleatorio = mostrarAleatorio;
 window.mostrarAlbum = mostrarAlbum;
+window.mostrarDatos = mostrarDatos;
+
 
 function mostrarMios(){
     const app = document.getElementById("app");
